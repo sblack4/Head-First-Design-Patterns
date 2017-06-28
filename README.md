@@ -11,3 +11,15 @@ https://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_For_Kepler
 
 Other links for the book are available on the book page at <a href="http://wickedlysmart.com/head-first-design-patterns/">wickedlysmart.com</a>.
 
+## To run from command line 
+
+1. `cd` into `Head-First-Design-Patterns/src` directory 
+2. compile java files in directory with `javac headfirst/designpatterns/<dir_name>/*.java`
+3. run file with `java headfirst.designpatterns.<dir_name>.<class_name>`
+
+#### e.g. to run strategy/MiniDuckSimulator
+
+1. `cd Head-First-Design-Patterns/src`
+2. `javac headfirst/designpatterns/strategy/*.java`
+3. `java headfirst.designpatterns.strategy.MiniDuckSimulator`
+
