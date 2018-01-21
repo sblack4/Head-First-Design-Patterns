@@ -27,5 +27,6 @@ There are three interfaces:
 The only Observable/Subject is the [Weather Data](weatherobservable/WeatherData.java) 
 API we were provided. All of the other classes (
     [CurrentConditionsDisplay](weatherobservable/CurrentConditionsDisplay.java), 
-    []()
+    [StatisticsDisplay](weatherobservable/StatisticsDisplay.java),
+    [ForecastDisplay](weatherobservable/ForecastDisplay.java)
 )

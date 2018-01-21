@@ -1,4 +1,30 @@
 # Commands (and comments)
+Commands to run java app examples from the book 
+after ant build
+
+## Compilation
+
+### Ant build
+Make sure you've installed [Apache Ant](http://ant.apache.org/)
+then, from this directory run 
+```sh 
+ant -f build.xml
+```
+
+### Alternative, `javac` compilation
+Alternatively you can compile the `.java` files this way...
+
+1. `cd` into `Head-First-Design-Patterns/src` directory 
+2. compile java files in directory with `javac headfirst/designpatterns/<dir_name>/*.java`
+3. run file with `java headfirst.designpatterns.<dir_name>.<class_name>`
+
+#### e.g. to run strategy/MiniDuckSimulator
+
+1. `cd Head-First-Design-Patterns/src`
+2. `javac headfirst/designpatterns/strategy/*.java`
+3. `java headfirst.designpatterns.strategy.MiniDuckSimulator`
+
+
 ## Chapter 1 - Strategy Pattern
 
 ```java

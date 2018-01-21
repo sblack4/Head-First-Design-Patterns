@@ -1,4 +1,4 @@
-<project name="Patterns" default="compile" basedir=".">
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="Patterns" default="compile" basedir=".">
 <description>
 	Build file for Head First Design Patterns
 </description>
@@ -11,6 +11,10 @@
 	<tstamp />
 	<!-- create the build directory used by compile -->
 	<mkdir dir="${classes}"/>
+</target>
+
+<target name="resolve" description="--> retrieve dependencies with ivy">
+        <ivy:retrieve />
 </target>
 
 <path id="compile.classpath">
