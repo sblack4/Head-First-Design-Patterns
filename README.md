@@ -1,7 +1,9 @@
 # Head First Design Patterns 
 ## by Eric Freeman & Elisabeth Robson 
 I've also included notes from *Design Patterns* by the GOF and *Clean Code* by Uncle Bob.
-This is a really great book.  10/10 would buy again.  
+This is a really great book.  10/10 would buy again. 
+
+Check out their book's website at [headfirstlabs.com/books/hfdp](http://www.headfirstlabs.com/books/hfdp/) 
 
 ## Code
 Code and notes are in `/src/designpatterns/<pattern>/`
@@ -12,7 +14,7 @@ as well as basics and principles for OO design :smiley:
 2) [Design Principles](./src/headfirst/designprinciples.md)
 3) Design Patterns! 
     1. [Strategy](./src/headfirst/designpatterns/strategy/strategy.md)
-    2. [Observer](./src/headfirst/designpatterns/observer/observer.md)
+    2. [Observer](./src/headfirst/designpatterns/observer/README.md)
     3. [Decorator](./src/headfirst/designpatterns/decorator/decorator.md)
     4. [Factory](./src/headfirst/designpatterns/factory/factory.md)
     5. [Singleton](./src/headfirst/designpatterns/singleton/singleton.md)
